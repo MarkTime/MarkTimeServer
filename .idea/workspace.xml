@@ -19,6 +19,26 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MarkTime" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="MarkTimeServer" />
@@ -28,8 +48,56 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49464667">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding>
+                <element signature="e#18#32#0" expanded="true" />
+                <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+                <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+                <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+                <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+                <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+                <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+                <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+                <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+                <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+                <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+                <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+                <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+                <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+                <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadNew.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/uploadNew.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -48,7 +116,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/api/merged_flag" />
+        <option value="$PROJECT_DIR$/api/status" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/api/upload.php" />
+        <option value="$PROJECT_DIR$/api/uploadNew.php" />
       </list>
     </option>
   </component>
@@ -60,9 +132,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="3216" />
-    <option name="height" value="1731" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3226" />
+    <option name="height" value="1746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -87,7 +160,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -106,15 +179,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarkTimeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarkTimeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Python27/python27.exe" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MarkTime.db" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John Board\Documents\Code\MarkTimeServer\api" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -205,6 +306,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -340,45 +447,513 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="3216" height="1731" extended-state="0" />
+    <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5012539" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292288" sideWeight="0.49811912" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3661698" sideWeight="0.49874607" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2490625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/uploadNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..sections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..squads">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..changelog">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..boys">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/status">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ae5f5a93-22ac-46ed-bccf-3aaf4ec6fe9e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..sections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..squads">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..changelog">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/21acc36/95344126-b073-4411-8d25-c056f5af3915/..boys">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035331905">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/uploadNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49464667">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1453987714278" expanded="true" signature="532:589" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="811:889" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="848:889" placeholder="SELECT boyNa..boys..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1430" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1439" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1441" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1458" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1462" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1418:1557" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1469" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1492" placeholder="SELECT ({}) ..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1510" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1462:1557" placeholder="SELECT ({}) ..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1526:1546" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1623" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1634" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1648" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1661" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1662" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1819" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1611:1832" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1698" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1722" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1729" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1745" placeholder="SELECT missi..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1746" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1808" placeholder="SELECT missi..missing_value..." />
+            <marker date="1453987714278" expanded="true" signature="1691:1819" placeholder="SELECT squad..SQUADS1..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1795" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1807" placeholder="SELECT missi..." />
+            <marker date="1453987714278" expanded="true" signature="1788:1808" placeholder="SELECT squad..SQUADS..." />
+            <marker date="1453987714278" expanded="true" signature="1939:2001" placeholder="SELECT sql F..sqlite_master..." />
+            <marker date="1453987714278" expanded="true" signature="2124:2138" placeholder="INSERT INTO ..." />
+            <marker date="1453987714278" expanded="true" signature="2139:2155" placeholder="SELECT * FRO..." />
+            <marker date="1453987714278" expanded="true" signature="2353:2366" placeholder="DROP TABLE {..." />
+            <marker date="1453987714278" expanded="true" signature="2624:2673" placeholder="SELECT name ..sqlite_master..." />
+          </folding>
         </state>
       </provider>
     </entry>

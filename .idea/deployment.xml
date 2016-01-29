@@ -5,7 +5,7 @@
       <paths name="MarkTime">
         <serverdata>
           <mappings>
-            <mapping deploy="~/public_html/johnrobboard/MarkTime" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/MarkTimeServer" local="$PROJECT_DIR$" web="/MarkTime" />
           </mappings>
         </serverdata>
       </paths>
